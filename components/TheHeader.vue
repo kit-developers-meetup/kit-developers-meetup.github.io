@@ -113,6 +113,8 @@ export default {
     color: #535c68;
     margin: auto 16px;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
 
     &--twitter {
       @extend .header__link;
