@@ -1,8 +1,20 @@
 <template>
   <div>
+    <TheHeader />
     <nuxt />
   </div>
 </template>
+
+<script>
+import TheHeader from '~/components/TheHeader'
+
+export default {
+  components: {
+    TheHeader
+  }
+}
+</script>
+
 
 <style>
 html {
@@ -15,6 +27,9 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: #535c68;
 }
 
 *,
