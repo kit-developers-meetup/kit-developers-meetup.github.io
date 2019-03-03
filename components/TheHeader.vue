@@ -138,4 +138,34 @@ export default {
     }
   }
 }
+
+/* Tablet */
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .header {
+    padding: 12px 24px;
+  }
+}
+
+/* Smart Phone */
+@media screen and (max-width: 450px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    min-height: 6vh;
+    padding: 12px;
+    width: 100vw;
+
+    .header__logo {
+      height: 32px;
+    }
+
+    .header__text {
+      font-size: 1.2rem;
+    }
+
+    .header__link {
+      display: none;
+    }
+  }
+}
 </style>
