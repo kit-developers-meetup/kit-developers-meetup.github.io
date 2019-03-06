@@ -21,7 +21,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'TheSideNav'
+}
 </script>
 
 <style lang="scss" scoped>
@@ -65,6 +67,21 @@ export default {}
       @extend .sidenav__link;
       border-color: #badc58;
     }
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 569px) and (max-width: 1024px) {
+  .sidenav {
+    height: 90vh;
+    padding-right: 24px;
+  }
+}
+
+/* Smart Phone */
+@media screen and (max-width: 568px) {
+  .sidenav {
+    display: none;
   }
 }
 </style>

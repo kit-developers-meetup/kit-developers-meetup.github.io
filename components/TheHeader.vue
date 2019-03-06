@@ -20,7 +20,7 @@
         rel="noopener noreferrer"
       >
         <fa :icon="faTwitter" />
-        <span>Twitter</span>
+        <span class="header__link-text">Twitter</span>
       </a>
       <a
         class="header__link--github"
@@ -29,7 +29,7 @@
         rel="noopener noreferrer"
       >
         <fa :icon="faGithub" />
-        <span>GitHub</span>
+        <span class="header__link-text">GitHub</span>
       </a>
       <a
         class="header__link--connpass"
@@ -38,7 +38,7 @@
         rel="noopener noreferrer"
       >
         <fa :icon="fas.faTicketAlt" />
-        <span>connpass</span>
+        <span class="header__link-text">connpass</span>
       </a>
     </span>
   </header>
@@ -140,14 +140,24 @@ export default {
 }
 
 /* Tablet */
-@media screen and (min-width: 451px) and (max-width: 1024px) {
+@media screen and (min-width: 708px) and (max-width: 1024px) {
   .header {
     padding: 12px 24px;
   }
 }
 
 /* Smart Phone */
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 569px) and (max-width: 707px) {
+  .header {
+    padding: 12px;
+
+    .header__link-text {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 568px) {
   .header {
     display: flex;
     justify-content: center;

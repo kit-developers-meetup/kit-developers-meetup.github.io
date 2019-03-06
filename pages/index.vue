@@ -32,4 +32,26 @@ export default {
 .container {
   padding-top: 16px;
 }
+
+/* Tablet */
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .wrapper {
+    margin: 12px 24px 0 24px;
+  }
+
+  .sidenav {
+    margin-right: 24px;
+  }
+}
+
+/* Smart Phone */
+@media screen and (max-width: 450px) {
+  .wrapper {
+    margin: 0 24px;
+  }
+
+  .sidenav {
+    display: none;
+  }
+}
 </style>
