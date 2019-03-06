@@ -71,7 +71,7 @@ export default {
 }
 
 /* Tablet */
-@media screen and (min-width: 569px) and (max-width: 1024px) {
+@media screen and (min-width: 551px) and (max-width: 1024px) {
   .sidenav {
     height: 90vh;
     padding-right: 24px;
@@ -79,7 +79,7 @@ export default {
 }
 
 /* Smart Phone */
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 550px) {
   .sidenav {
     display: none;
   }
