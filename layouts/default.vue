@@ -1,15 +1,13 @@
 <template>
   <div>
-    <TheMobileNav v-if="isMobileNavDisplayed" class="mobile-nav" />
+    <TheMobileNav v-if="isMobileNavDisplayed" style="position: absolute;" />
     <TheHeader />
-    <div @click="handleClick">
-      <nuxt />
-    </div>
+    <nuxt />
   </div>
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 import TheHeader from '~/components/TheHeader'
 import TheMobileNav from '~/components/TheMobileNav'
 
@@ -20,14 +18,6 @@ export default {
   },
   computed: {
     ...mapGetters(['isMobileNavDisplayed'])
-  },
-  methods: {
-    handleClick() {
-      if (this.isMobileNavDisplayed) {
-        this.toggleMobileNavDisplay()
-      }
-    },
-    ...mapActions(['toggleMobileNavDisplay'])
   }
 }
 </script>
@@ -54,12 +44,5 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
-}
-
-.mobile-nav {
-  background-color: #fff;
-  position: absolute;
-  top: 0;
-  z-index: 1;
 }
 </style>

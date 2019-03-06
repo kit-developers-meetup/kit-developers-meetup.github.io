@@ -77,7 +77,7 @@ export default {
   justify-content: space-between;
   padding: 12px 80px;
   width: 100vw;
-  box-shadow: 0px 3px 1px #ddd;
+  box-shadow: 0px 2px 4px #bbb;
 
   .header__btn {
     display: none;
@@ -207,7 +207,7 @@ export default {
     }
 
     .header__text {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
     }
 
     .header__link {
@@ -220,7 +220,7 @@ export default {
   .header {
     display: flex;
     min-height: 6vh;
-    padding: 12px;
+    padding: 12px 8px;
     width: 100vw;
 
     .header__btn {
@@ -232,7 +232,7 @@ export default {
     }
 
     .header__text {
-      font-size: 1rem;
+      font-size: 1.15rem;
     }
 
     .header__link {
