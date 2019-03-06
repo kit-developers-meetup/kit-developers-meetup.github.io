@@ -43,7 +43,7 @@
         </a>
       </span>
     </nav>
-    <div style="background-color: rgba(0, 0, 0, 0.253); width: 36vw;" @click="toggleMobileNavDisplay" />
+    <div style="background-color: rgba(0, 0, 0, 0.253); width: 100vw;" @click="toggleMobileNavDisplay" />
   </div>
 </template>
 

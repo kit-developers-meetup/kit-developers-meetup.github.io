@@ -1,6 +1,8 @@
 <template>
   <div>
-    <TheMobileNav v-if="isMobileNavDisplayed" style="position: absolute;" />
+    <transition>
+      <TheMobileNav v-show="isMobileNavDisplayed" style="position: absolute;" />
+    </transition>
     <TheHeader />
     <nuxt />
   </div>
@@ -44,5 +46,18 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: transform 0.4s;
+}
+
+.v-enter {
+  transform: translateX(-64vw);
+}
+
+.v-leave-to {
+  transform: translateX(-64vw);
 }
 </style>
