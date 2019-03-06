@@ -1,6 +1,6 @@
 <template>
   <section class="wrapper">
-    <TheSideNav class="sidenav" />
+    <TheSideNav class="side-nav" />
     <main class="container">
       <div>content</div>
     </main>
@@ -25,7 +25,7 @@ export default {
   min-height: 100vh;
 }
 
-.sidenav {
+.side-nav {
   margin-right: 32px;
 }
 
@@ -39,7 +39,7 @@ export default {
     margin: 12px 24px 0 24px;
   }
 
-  .sidenav {
+  .side-nav {
     margin-right: 24px;
   }
 }

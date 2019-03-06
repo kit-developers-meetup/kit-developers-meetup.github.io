@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <button class="header__btn">
+    <button class="header__btn" @click="toggleMobileNavDisplay">
       <fa :icon="fas.faBars" style="height: 24px; width: 24px;" />
     </button>
     <span style="display: flex;">
@@ -48,6 +48,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
@@ -63,6 +64,9 @@ export default {
     faGithub() {
       return faGithub
     }
+  },
+  methods: {
+    ...mapActions(['toggleMobileNavDisplay'])
   }
 }
 </script>
