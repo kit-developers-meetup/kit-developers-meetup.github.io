@@ -1,26 +1,26 @@
 export const state = () => ({
-  isSideNavDisplayed: false
+  isMobileNavDisplayed: false
 })
 
 export const getters = {
-  isSideNavDisplayed: state => state.isSideNavDisplayed
+  isMobileNavDisplayed: state => state.isMobileNavDisplayed
 }
 
 export const mutations = {
-  hideSideNav(state) {
-    state.isSideNavDisplayed = false
+  hideMobileNav(state) {
+    state.isMobileNavDisplayed = false
   },
-  showSideNav(state) {
-    state.isSideNavDisplayed = true
+  showMobileNav(state) {
+    state.isMobileNavDisplayed = true
   }
 }
 
 export const actions = {
-  toggleSideNavDisplay({ commit, state }) {
-    if (state.isSideNavDisplayed) {
-      commit('hideSideNav')
+  toggleMobileNavDisplay({ commit, state }) {
+    if (state.isMobileNavDisplayed) {
+      commit('hideMobileNav')
     } else {
-      commit('showSideNav')
+      commit('showMobileNav')
     }
   }
 }
