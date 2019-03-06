@@ -34,7 +34,7 @@ export default {
 }
 
 /* Tablet */
-@media screen and (min-width: 451px) and (max-width: 1024px) {
+@media screen and (min-width: 551px) and (max-width: 1024px) {
   .wrapper {
     margin: 12px 24px 0 24px;
   }
@@ -45,12 +45,12 @@ export default {
 }
 
 /* Smart Phone */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .wrapper {
     margin: 0 24px;
   }
 
-  .sidenav {
+  .side-nav {
     display: none;
   }
 }

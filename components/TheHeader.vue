@@ -169,15 +169,19 @@ export default {
   .header {
     padding: 12px;
 
+    .header__btn {
+      display: flex;
+    }
+
     .header__logo {
       height: 32px;
     }
 
     .header__text {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
-    .header__link-text {
+    .header__link {
       display: none;
     }
   }
