@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <button class="header__btn" @click="toggleMobileNavDisplay">
-      <fa :icon="fas.faBars" style="height: 24px; width: 24px;" />
+      <fa :icon="fas.faBars" style="height: 24px; width: 24px; color: #535c68;" />
     </button>
     <span style="display: flex;">
       <img class="header__logo" src="~/assets/logo.png" height="40px" alt="logo">
