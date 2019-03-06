@@ -1,5 +1,8 @@
 <template>
   <header class="header">
+    <button class="header__btn" @click="toggleMobileNavDisplay">
+      <fa :icon="fas.faBars" style="height: 24px; width: 24px;" />
+    </button>
     <span style="display: flex;">
       <img class="header__logo" src="~/assets/logo.png" height="40px" alt="logo">
       <h1 class="header__title">
@@ -45,6 +48,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
@@ -60,6 +64,9 @@ export default {
     faGithub() {
       return faGithub
     }
+  },
+  methods: {
+    ...mapActions(['toggleMobileNavDisplay'])
   }
 }
 </script>
@@ -70,6 +77,11 @@ export default {
   justify-content: space-between;
   padding: 12px 80px;
   width: 100vw;
+  box-shadow: 0px 3px 1px #ddd;
+
+  .header__btn {
+    display: none;
+  }
 
   .header__logo {
     margin: auto 0;
@@ -147,7 +159,7 @@ export default {
 }
 
 /* Smart Phone */
-@media screen and (min-width: 569px) and (max-width: 707px) {
+@media screen and (min-width: 551px) and (max-width: 707px) {
   .header {
     padding: 12px;
 
@@ -157,20 +169,70 @@ export default {
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 461px) and (max-width: 550px) {
   .header {
-    display: flex;
-    justify-content: center;
-    min-height: 6vh;
     padding: 12px;
-    width: 100vw;
+
+    .header__btn {
+      display: flex;
+    }
 
     .header__logo {
       height: 32px;
     }
 
     .header__text {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+    }
+
+    .header__link {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 371px) and (max-width: 460px) {
+  .header {
+    display: flex;
+    min-height: 6vh;
+    padding: 12px;
+    width: 100vw;
+
+    .header__btn {
+      display: flex;
+    }
+
+    .header__logo {
+      height: 32px;
+    }
+
+    .header__text {
+      font-size: 1.3rem;
+    }
+
+    .header__link {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header {
+    display: flex;
+    min-height: 6vh;
+    padding: 12px;
+    width: 100vw;
+
+    .header__btn {
+      display: flex;
+    }
+
+    .header__logo {
+      height: 28px;
+    }
+
+    .header__text {
+      font-size: 1rem;
     }
 
     .header__link {
