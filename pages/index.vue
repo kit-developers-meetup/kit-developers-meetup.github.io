@@ -2,7 +2,9 @@
   <section class="wrapper">
     <TheSideNav class="side-nav" />
     <main class="container">
-      <div>content</div>
+      <p>
+        coming soon...
+      </p>
     </main>
   </section>
 </template>
@@ -30,6 +32,7 @@ export default {
 }
 
 .container {
+  margin: auto;
   padding-top: 16px;
 }
 
