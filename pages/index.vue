@@ -24,7 +24,7 @@ export default {
 .wrapper {
   display: flex;
   margin: 24px 80px 0 80px;
-  min-height: 100vh;
+  height: 80vh;
 }
 
 .side-nav {
