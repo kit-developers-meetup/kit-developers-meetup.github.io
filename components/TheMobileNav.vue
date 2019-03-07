@@ -43,12 +43,16 @@
         </a>
       </span>
     </nav>
-    <div style="background-color: rgba(0, 0, 0, 0.253); width: 100vw;" @click="toggleMobileNavDisplay" />
+    <div
+      v-show="isMobileNavDisplayed"
+      style="background-color: rgba(0, 0, 0, 0.253); width: 100vw;"
+      @click="toggleMobileNavDisplay"
+    />
   </div>
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
@@ -63,7 +67,8 @@ export default {
     },
     faGithub() {
       return faGithub
-    }
+    },
+    ...mapGetters(['isMobileNavDisplayed'])
   },
   methods: {
     ...mapActions(['toggleMobileNavDisplay'])

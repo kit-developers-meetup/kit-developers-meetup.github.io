@@ -25,7 +25,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -39,6 +39,10 @@ html {
   min-height: 100vh;
   min-width: 100vw;
   color: #535c68;
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
 *,

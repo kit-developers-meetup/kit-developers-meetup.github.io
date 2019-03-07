@@ -1,8 +1,8 @@
 <template>
   <header class="header">
-    <button class="header__btn" @click="toggleMobileNavDisplay">
+    <div class="header__btn" @click="toggleMobileNavDisplay">
       <fa :icon="fas.faBars" style="height: 24px; width: 24px; color: #535c68;" />
-    </button>
+    </div>
     <span style="display: flex;">
       <img class="header__logo" src="~/assets/logo.png" height="40px" alt="logo">
       <h1 class="header__title">
@@ -81,6 +81,7 @@ export default {
 
   .header__btn {
     display: none;
+    margin: auto 12px;
   }
 
   .header__logo {
@@ -151,15 +152,13 @@ export default {
   }
 }
 
-/* Tablet */
 @media screen and (min-width: 708px) and (max-width: 1024px) {
   .header {
     padding: 12px 24px;
   }
 }
 
-/* Smart Phone */
-@media screen and (min-width: 551px) and (max-width: 707px) {
+@media screen and (max-width: 707px) {
   .header {
     padding: 12px;
 
@@ -169,9 +168,9 @@ export default {
   }
 }
 
-@media screen and (min-width: 461px) and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .header {
-    padding: 12px;
+    justify-content: flex-start;
 
     .header__btn {
       display: flex;
@@ -191,39 +190,13 @@ export default {
   }
 }
 
-@media screen and (min-width: 371px) and (max-width: 460px) {
-  .header {
-    display: flex;
-    min-height: 6vh;
-    padding: 12px;
-    width: 100vw;
-
-    .header__btn {
-      display: flex;
-    }
-
-    .header__logo {
-      height: 32px;
-    }
-
-    .header__text {
-      font-size: 1.4rem;
-    }
-
-    .header__link {
-      display: none;
-    }
-  }
-}
-
 @media screen and (max-width: 370px) {
   .header {
-    display: flex;
-    min-height: 6vh;
     padding: 12px 8px;
-    width: 100vw;
 
     .header__btn {
+      margin-left: 8px;
+      margin-right: 8px;
       display: flex;
     }
 
@@ -233,10 +206,6 @@ export default {
 
     .header__text {
       font-size: 1.15rem;
-    }
-
-    .header__link {
-      display: none;
     }
   }
 }
