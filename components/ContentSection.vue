@@ -33,4 +33,17 @@ export default {
     padding: 0;
   }
 }
+
+/* Smart Phone */
+@media screen and (max-width: 550px) {
+  .content {
+    .content__title {
+      font-size: 1.15rem;
+    }
+
+    .content__body {
+      font-size: 0.9rem;
+    }
+  }
+}
 </style>

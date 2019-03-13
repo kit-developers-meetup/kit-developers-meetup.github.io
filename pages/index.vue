@@ -126,7 +126,7 @@ export default {
 <style>
 .wrapper {
   display: flex;
-  margin: 24px 80px 0 80px;
+  margin: 88px 80px 0 80px;
 }
 
 .side-nav {
@@ -146,7 +146,7 @@ export default {
 /* Tablet */
 @media screen and (min-width: 551px) and (max-width: 1024px) {
   .wrapper {
-    margin: 12px 24px 0 24px;
+    margin: 88px 24px 0 24px;
   }
 
   .side-nav {
@@ -165,7 +165,7 @@ export default {
   }
 
   .container {
-    margin-top: 24px;
+    margin-top: 72px;
     max-width: 100vw;
   }
 
