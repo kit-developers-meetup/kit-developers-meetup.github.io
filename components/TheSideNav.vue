@@ -34,7 +34,7 @@ export default {
 
   .side-nav__linklist {
     list-style: none;
-    padding: 16px 0 0 0;
+    padding: 8px 0 0 0;
   }
 
   .side-nav__link {
