@@ -163,5 +163,14 @@ export default {
   .side-nav {
     display: none;
   }
+
+  .container {
+    margin-top: 24px;
+    max-width: 100vw;
+  }
+
+  .content {
+    margin-bottom: 40px;
+  }
 }
 </style>
