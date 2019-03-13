@@ -1,9 +1,9 @@
 <template>
   <div>
     <transition>
-      <TheMobileNav v-show="isMobileNavDisplayed" style="position: absolute;" />
+      <TheMobileNav v-show="isMobileNavDisplayed" style="position: fixed; z-index: 1;" />
     </transition>
-    <TheHeader />
+    <TheHeader style="position: fixed; top: 0; background-color: #fff; z-index: 0;" />
     <nuxt />
   </div>
 </template>
