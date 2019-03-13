@@ -45,7 +45,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/pwa', 'nuxt-fontawesome'],
+  modules: ['@nuxtjs/pwa', 'nuxt-fontawesome', 'vue-scrollto/nuxt'],
 
   fontawesome: {
     component: 'fa'
