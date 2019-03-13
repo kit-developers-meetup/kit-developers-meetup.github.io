@@ -2,20 +2,30 @@
   <div style="display: flex;">
     <nav class="mobile-nav">
       <ul class="mobile-nav__linklist">
-        <li class="mobile-nav__link--red" style="margin-top: 0;">
-          KIT Developers Meetup とは
+        <li class="mobile-nav__link--red" style="margin-top: 0;" @click="toggleMobileNavDisplay">
+          <nuxt-link v-scroll-to="'#about'" to>
+            KIT Developers Meetup とは
+          </nuxt-link>
         </li>
-        <li class="mobile-nav__link--orange">
-          活動内容
+        <li class="mobile-nav__link--orange" @click="toggleMobileNavDisplay">
+          <nuxt-link v-scroll-to="'#activities'" to>
+            活動内容
+          </nuxt-link>
         </li>
-        <li class="mobile-nav__link--yellow">
-          開催日時
+        <li class="mobile-nav__link--yellow" @click="toggleMobileNavDisplay">
+          <nuxt-link v-scroll-to="'#date'" to>
+            開催日時
+          </nuxt-link>
         </li>
-        <li class="mobile-nav__link--blue">
-          参加方法
+        <li class="mobile-nav__link--blue" @click="toggleMobileNavDisplay">
+          <nuxt-link v-scroll-to="'#join'" to>
+            参加方法
+          </nuxt-link>
         </li>
-        <li class="mobile-nav__link--green">
-          Q & A
+        <li class="mobile-nav__link--green" @click="toggleMobileNavDisplay">
+          <nuxt-link v-scroll-to="'#question'" to>
+            Q & A
+          </nuxt-link>
         </li>
       </ul>
 
@@ -86,6 +96,11 @@ export default {
   height: 100vh;
   width: 64vw;
   padding: 32px 24px;
+
+  a {
+    color: #535c68;
+    text-decoration: none;
+  }
 
   .mobile-nav__linklist {
     list-style: none;

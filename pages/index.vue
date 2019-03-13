@@ -2,7 +2,7 @@
   <div class="wrapper">
     <TheSideNav class="side-nav" />
     <div class="container">
-      <ContentSection class="content">
+      <ContentSection id="about" class="content">
         <template slot="title">
           # KIT Developers Meetup とは
         </template>
@@ -12,7 +12,7 @@
         </template>
       </ContentSection>
 
-      <ContentSection class="content">
+      <ContentSection id="activities" class="content">
         <template slot="title">
           # 活動内容
         </template>
@@ -24,17 +24,7 @@
         </template>
       </ContentSection>
 
-      <ContentSection class="content">
-        <template slot="title">
-          # 参加方法
-        </template>
-        <template slot="body">
-          <p>開催日の1ヶ月ほど前に conpass で募集ページが公開されるので、そこから申し込んでください。</p>
-          <p>直前の申込みでも構いませんが、余裕を持って申し込みいただくと事前にSlackに招待させていただきます。</p>
-        </template>
-      </ContentSection>
-
-      <ContentSection class="content">
+      <ContentSection id="date" class="content">
         <template slot="title">
           # 開催日時
         </template>
@@ -44,7 +34,17 @@
         </template>
       </ContentSection>
 
-      <ContentSection class="content">
+      <ContentSection id="join" class="content">
+        <template slot="title">
+          # 参加方法
+        </template>
+        <template slot="body">
+          <p>開催日の1ヶ月ほど前に conpass で募集ページが公開されるので、そこから申し込んでください。</p>
+          <p>直前の申込みでも構いませんが、余裕を持って申し込みいただくと事前にSlackに招待させていただきます。</p>
+        </template>
+      </ContentSection>
+
+      <ContentSection id="question" class="content">
         <template slot="title">
           # Q & A
         </template>

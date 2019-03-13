@@ -2,19 +2,29 @@
   <nav class="side-nav">
     <ul class="side-nav__linklist">
       <li class="side-nav__link--red" style="margin-top: 0;">
-        KIT Developers Meetup とは
+        <nuxt-link v-scroll-to="'#about'" to>
+          KIT Developers Meetup とは
+        </nuxt-link>
       </li>
       <li class="side-nav__link--orange">
-        活動内容
+        <nuxt-link v-scroll-to="'#activities'" to>
+          活動内容
+        </nuxt-link>
       </li>
       <li class="side-nav__link--yellow">
-        開催日時
+        <nuxt-link v-scroll-to="'#date'" to>
+          開催日時
+        </nuxt-link>
       </li>
       <li class="side-nav__link--blue">
-        参加方法
+        <nuxt-link v-scroll-to="'#join'" to>
+          参加方法
+        </nuxt-link>
       </li>
       <li class="side-nav__link--green">
-        Q & A
+        <nuxt-link v-scroll-to="'#question'" to>
+          Q & A
+        </nuxt-link>
       </li>
     </ul>
   </nav>
@@ -31,6 +41,11 @@ export default {
   border-right: 1px solid #ccc;
   height: 84vh;
   padding-right: 32px;
+
+  a {
+    color: #535c68;
+    text-decoration: none;
+  }
 
   .side-nav__linklist {
     list-style: none;
