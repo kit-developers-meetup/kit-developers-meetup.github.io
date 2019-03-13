@@ -3,27 +3,27 @@
     <nav class="mobile-nav">
       <ul class="mobile-nav__linklist">
         <li class="mobile-nav__link--red" style="margin-top: 0;" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="'#about'" to>
+          <nuxt-link v-scroll-to="{el: '#about', offset: -72}" to>
             KIT Developers Meetup とは
           </nuxt-link>
         </li>
         <li class="mobile-nav__link--orange" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="'#activities'" to>
+          <nuxt-link v-scroll-to="{el: '#activities', offset: -72}" to>
             活動内容
           </nuxt-link>
         </li>
         <li class="mobile-nav__link--yellow" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="'#date'" to>
+          <nuxt-link v-scroll-to="{el: '#date', offset: -72}" to>
             開催日時
           </nuxt-link>
         </li>
         <li class="mobile-nav__link--blue" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="'#join'" to>
+          <nuxt-link v-scroll-to="{el: '#join', offset: -72}" to>
             参加方法
           </nuxt-link>
         </li>
         <li class="mobile-nav__link--green" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="'#question'" to>
+          <nuxt-link v-scroll-to="{el: '#question', offset: -72}" to>
             Q & A
           </nuxt-link>
         </li>
