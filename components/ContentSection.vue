@@ -30,6 +30,10 @@ export default {
   table {
     margin-bottom: 24px;
   }
+
+  a {
+    color: #535c68;
+  }
 }
 
 /* Smart Phone */

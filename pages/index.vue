@@ -8,7 +8,14 @@
         </template>
         <template slot="body">
           <p>金沢工業大学を中心とした周辺地域のエンジニアの交流と成長を目的としたイベントです。</p>
-          <p>主催者（@saitoeku3）が学生ということもあり「学生が参加しやすいイベント」を目指しています。</p>
+          <p>
+            主催者である
+            <a href="https://twitter.com/saitoeku3" target="_blank" rel="noopener noreferrer">
+              saitoeku3
+              <fa class="mobile-nab__icon" :icon="fas.faExternalLinkAlt" />
+            </a>
+            が学生ということもあり「学生が参加しやすいイベント」を目指しています。
+          </p>
         </template>
       </ContentSection>
 
@@ -52,7 +59,9 @@
           <table>
             <tbody>
               <tr>
-                <td>Q.</td>
+                <td valign="top">
+                  Q.
+                </td>
                 <td>活動場所は？</td>
               </tr>
               <tr>
@@ -70,7 +79,9 @@
           <table>
             <tbody>
               <tr>
-                <td>Q.</td>
+                <td valign="top">
+                  Q.
+                </td>
                 <td>初心者でも参加していい？</td>
               </tr>
               <tr>
@@ -85,7 +96,9 @@
           <table>
             <tbody>
               <tr>
-                <td>Q.</td>
+                <td valign="top">
+                  Q.
+                </td>
                 <td>金沢工業大学の学生じゃないけど参加していい？</td>
               </tr>
               <tr>
@@ -100,7 +113,9 @@
           <table>
             <tbody>
               <tr>
-                <td>Q.</td>
+                <td valign="top">
+                  Q.
+                </td>
                 <td>活動場所は？</td>
               </tr>
               <tr>
