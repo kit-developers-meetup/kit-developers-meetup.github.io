@@ -27,10 +27,12 @@ export default {
     padding-left: 1.25rem;
   }
 
-  ul {
-    list-style: none;
+  table {
     margin-bottom: 24px;
-    padding: 0;
+  }
+
+  a {
+    color: #535c68;
   }
 }
 

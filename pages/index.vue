@@ -8,7 +8,14 @@
         </template>
         <template slot="body">
           <p>金沢工業大学を中心とした周辺地域のエンジニアの交流と成長を目的としたイベントです。</p>
-          <p>主催者（@saitoeku3）が学生ということもあり「学生が参加しやすいイベント」を目指しています。</p>
+          <p>
+            主催者である
+            <a href="https://twitter.com/saitoeku3" target="_blank" rel="noopener noreferrer">
+              saitoeku3
+              <fa class="mobile-nab__icon" :icon="fas.faExternalLinkAlt" />
+            </a>
+            が学生ということもあり「学生が参加しやすいイベント」を目指しています。
+          </p>
         </template>
       </ContentSection>
 
@@ -40,7 +47,7 @@
         </template>
         <template slot="body">
           <p>開催日の1ヶ月ほど前に conpass で募集ページが公開されるので、そこから申し込んでください。</p>
-          <p>直前の申込みでも構いませんが、余裕を持って申し込みいただくと事前にSlackに招待させていただきます。</p>
+          <p>直前の申込みでも構いませんが、余裕を持って申し込みいただくと事前に Slack に招待させていただきます。</p>
         </template>
       </ContentSection>
 
@@ -49,55 +56,79 @@
           # Q & A
         </template>
         <template slot="body">
-          <ul>
-            <li>
-              <span>Q.</span>
-              <span>活動場所は？</span>
-            </li>
-            <li>
-              <span>A.</span>
-              <span>基本的に金沢工業大学23号館のパフォーミングスタジオで開催する予定です。</span>
-              <p style="margin-left: 20px;">
-                違う場所で行うこともありえるので、conpass の募集ページで確認してください。
-              </p>
-            </li>
-          </ul>
+          <table>
+            <tbody>
+              <tr>
+                <td valign="top">
+                  Q.
+                </td>
+                <td>活動場所は？</td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  A.
+                </td>
+                <td>
+                  <p>基本的に金沢工業大学23号館のパフォーミングスタジオで開催する予定です。</p>
+                  <p>違う場所で行うこともありえるので、conpass の募集ページで確認してください。</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-          <ul>
-            <li>
-              <span>Q.</span>
-              <span>初心者でも参加していい？</span>
-            </li>
-            <li>
-              <span>A.</span>
-              <span>大歓迎です。困ったことがあれば、主催者や他の参加者で優しくサポートさせていただきます。</span>
-            </li>
-          </ul>
+          <table>
+            <tbody>
+              <tr>
+                <td valign="top">
+                  Q.
+                </td>
+                <td>初心者でも参加していい？</td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  A.
+                </td>
+                <td>大歓迎です。困ったことがあれば、主催者や他の参加者で優しくサポートさせていただきます。</td>
+              </tr>
+            </tbody>
+          </table>
 
-          <ul>
-            <li>
-              <span>Q.</span>
-              <span>金沢工業大学の学生じゃないけど参加していい？</span>
-            </li>
-            <li>
-              <span>A.</span>
-              <span>大歓迎です。ただし、学内のWi-Fiは使えないのでポケットWi-Fiやテザリングが必要です。</span>
-            </li>
-          </ul>
+          <table>
+            <tbody>
+              <tr>
+                <td valign="top">
+                  Q.
+                </td>
+                <td>金沢工業大学の学生じゃないけど参加していい？</td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  A.
+                </td>
+                <td>大歓迎です。ただし、学内の Wi-Fi は学生専用のためポケット Wi-Fi やテザリングが必要です。</td>
+              </tr>
+            </tbody>
+          </table>
 
-          <ul>
-            <li>
-              <span>Q.</span>
-              <span>何を持って行けばいい？</span>
-            </li>
-            <li>
-              <span>A.</span>
-              <span>あなたの活動に必要なPCや本など好きなものを持参してください。</span>
-              <p style="margin-left: 20px;">
-                常識の範囲内であれば問題ありません。
-              </p>
-            </li>
-          </ul>
+          <table>
+            <tbody>
+              <tr>
+                <td valign="top">
+                  Q.
+                </td>
+                <td>活動場所は？</td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  A.
+                </td>
+                <td>
+                  <p>あなたの活動に必要な PC や本など好きなものを持参してください。</p>
+                  <p>常識の範囲内であれば問題ありません。</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </template>
       </ContentSection>
     </div>
