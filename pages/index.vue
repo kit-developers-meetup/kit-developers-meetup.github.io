@@ -59,13 +59,13 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
                 <td>活動場所は？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>
@@ -79,13 +79,13 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
                 <td>初心者でも参加していい？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>大歓迎です。困ったことがあれば、主催者や他の参加者で優しくサポートさせていただきます。</td>
@@ -96,13 +96,13 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
                 <td>金沢工業大学の学生じゃないけど参加していい？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>大歓迎です。ただし、学内の Wi-Fi は学生専用のためポケット Wi-Fi やテザリングが必要です。</td>
@@ -113,13 +113,13 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
                 <td>持ってくるものは？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>
