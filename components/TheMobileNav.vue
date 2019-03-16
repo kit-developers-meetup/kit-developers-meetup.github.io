@@ -2,31 +2,31 @@
   <div style="display: flex;">
     <nav class="mobile-nav">
       <ul class="mobile-nav__linklist">
-        <li class="mobile-nav__link--red" style="margin-top: 0;" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="{el: '#about', offset: -72}" to>
+        <nuxt-link v-scroll-to="{el: '#about', offset: -72}" to>
+          <li class="mobile-nav__link--red" style="margin-top: 0;" @click="toggleMobileNavDisplay">
             KIT Developers Meetup とは
-          </nuxt-link>
-        </li>
-        <li class="mobile-nav__link--orange" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="{el: '#activities', offset: -72}" to>
+          </li>
+        </nuxt-link>
+        <nuxt-link v-scroll-to="{el: '#activities', offset: -72}" to>
+          <li class="mobile-nav__link--orange" @click="toggleMobileNavDisplay">
             活動内容
-          </nuxt-link>
-        </li>
-        <li class="mobile-nav__link--yellow" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="{el: '#date', offset: -72}" to>
+          </li>
+        </nuxt-link>
+        <nuxt-link v-scroll-to="{el: '#date', offset: -72}" to>
+          <li class="mobile-nav__link--yellow" @click="toggleMobileNavDisplay">
             開催日時
-          </nuxt-link>
-        </li>
-        <li class="mobile-nav__link--blue" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="{el: '#join', offset: -72}" to>
+          </li>
+        </nuxt-link>
+        <nuxt-link v-scroll-to="{el: '#join', offset: -72}" to>
+          <li class="mobile-nav__link--blue" @click="toggleMobileNavDisplay">
             参加方法
-          </nuxt-link>
-        </li>
-        <li class="mobile-nav__link--green" @click="toggleMobileNavDisplay">
-          <nuxt-link v-scroll-to="{el: '#question', offset: -72}" to>
+          </li>
+        </nuxt-link>
+        <nuxt-link v-scroll-to="{el: '#question', offset: -72}" to>
+          <li class="mobile-nav__link--green" @click="toggleMobileNavDisplay">
             Q & A
-          </nuxt-link>
-        </li>
+          </li>
+        </nuxt-link>
       </ul>
 
       <span style="display: flex; justify-content: space-between;">
