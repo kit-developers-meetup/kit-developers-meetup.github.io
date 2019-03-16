@@ -46,7 +46,7 @@
           # 参加方法
         </template>
         <template slot="body">
-          <p>開催日の1ヶ月ほど前に conpass で募集ページが公開されるので、そこから申し込んでください。</p>
+          <p>開催日の1ヶ月ほど前に connpass で募集ページが公開されるので、そこから申し込んでください。</p>
           <p>直前の申込みでも構いませんが、余裕を持って申し込みいただくと事前に Slack に招待させていただきます。</p>
         </template>
       </ContentSection>
@@ -59,18 +59,18 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
                 <td>活動場所は？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>
                   <p>基本的に金沢工業大学23号館のパフォーミングスタジオで開催する予定です。</p>
-                  <p>違う場所で行うこともありえるので、conpass の募集ページで確認してください。</p>
+                  <p>違う場所で行うこともありえるので、connpass の募集ページで確認してください。</p>
                 </td>
               </tr>
             </tbody>
@@ -79,13 +79,13 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
                 <td>初心者でも参加していい？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>大歓迎です。困ったことがあれば、主催者や他の参加者で優しくサポートさせていただきます。</td>
@@ -96,13 +96,13 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
                 <td>金沢工業大学の学生じゃないけど参加していい？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>大歓迎です。ただし、学内の Wi-Fi は学生専用のためポケット Wi-Fi やテザリングが必要です。</td>
@@ -113,13 +113,13 @@
           <table>
             <tbody>
               <tr>
-                <td valign="top">
+                <td>
                   Q.
                 </td>
-                <td>活動場所は？</td>
+                <td>持ってくるものは？</td>
               </tr>
               <tr>
-                <td valign="top">
+                <td>
                   A.
                 </td>
                 <td>

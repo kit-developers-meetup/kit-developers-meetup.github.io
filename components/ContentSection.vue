@@ -29,6 +29,10 @@ export default {
 
   table {
     margin-bottom: 24px;
+
+    td {
+      vertical-align: top;
+    }
   }
 
   a {
